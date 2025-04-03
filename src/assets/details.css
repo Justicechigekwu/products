@@ -1,0 +1,136 @@
+.detailsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #E4EFE7;
+}
+
+.back{
+  background-color: #5c4114;
+  color: #FEFBF6;
+  border: none;
+  padding: 10px 
+  ;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-right: auto;
+}
+
+.spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-left-color: #3498db;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  margin: 20px auto;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* carttttttttttttttttttttttttttttttttttttttttttt */
+.cartContainer{
+ width: 100%;
+ height: 100%;
+ background-color: #CBA35C;
+}
+
+.cart{
+  background-color: #CBA35C;
+  width: 90%;
+  height: 90%;
+  margin: auto;
+}
+
+.cart-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.plus-button {
+  background-color: #FADA7A;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 10%;
+  
+}
+.minus-button {
+  background-color: #FADA7A;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 10%;
+  
+}
+
+.cart-item-buttons {
+ display: flex;
+ gap: 10px;
+}
+
+.plus-button:hover {
+  background-color: #5c4114;
+  transition: 0.5s;
+}
+.minus-button:hover {
+  background-color: #5c4114;
+  transition: 0.5s;
+}
+
+.front-back{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5px;
+}
+
+.go-checkout{
+  height: 30px;
+  background-color: #FADA7A;
+  color: #FEFBF6;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+}.back-product{
+  height: 30px;
+  background-color: #FADA7A;
+  color: #FEFBF6;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.go-checkout:hover{
+  background-color: #5c4114;
+  transition: 0.5s;
+}
+.back-product:hover{
+  background-color: #5c4114;
+  transition: 0.5s;
+}
+
+.shopping{
+  color: #FEFBF6;
+}
+
+
+
+
+
